@@ -11,8 +11,8 @@ ssh -i "my-key-val.pem" ec2-user@`<PUBLIC-DNS>`
 
 chmod +x queryInstanceMetaData.sh
 
-## Query all meta data
+### Query all meta data
 ./queryInstanceMetaData.sh
 
-## Query particular meta data
+### Query particular meta data
 ./queryInstanceMetaData.sh `META-DATA-KEY`
